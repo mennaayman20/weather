@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+<link rel="stylesheet" href="all.min.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="weather.css">
+</head>
+<body>
+
+
+
+    
+
+
+
+    <div class="container w-75 mt-5">
+
+
+
+
+
+
+
+
+
+    <input type="text" class=" search text-light w-100 mx-auto rounded-5 py-3 px-4 bg-main-color mb-5"
+    placeholder="find your location..." 
+     id="search">
+
+<div class="row g-0 rounded-5 ">
+
+<div class="tt1 col-md-4 text-light p-3">
+<div class=" next_day_name  d-flex justify-content-between fw-bolder pe-1 ps-1">
+    <div>
+    <p id="today_name">saturday</p></div>
+    <div class="d-flex">
+    <p id="today_number">20</p><span id="today_month">December</span> 
+</div>
+
+</div>
+
+<div class="p-4">
+  <h2  id="today_location">cairo</h2>
+
+    <h1 class="fw-bolder" id="today_temp">18.2 <sup>o</sup>C</h1>
+    <i id="today_condition_img" class="fa-solid fa-cloud-sun fa-4x pt-3 pb-2" ></i>
+<p id="today_condition_text" class="statue-air" >party cloud</p>
+</div>
+<div class="d-flex ">
+    <span class="p-3 d-flex">
+    <i class="  fa-solid fa-umbrella"></i>
+    <p id="humidity" class="ps-1">20%</p>
+</span>
+<span class="p-3 d-flex">
+      <i class=" icon  fa-solid fa-poo-storm"></i>
+    <p id="wind" class="ps-1">18Km/h</p>  
+</span>
+
+<span class=" p-3 d-flex">
+    <i class=" fa-brands fa-nfc-directional"></i>
+    <p id="wind_direction" class="ps-1" >East</p>
+</span>
+</div>
+
+</div>
+
+<div class=" tt2 col-md-4 text-light p-3">
+    <div class=" next_day_name fw-bolder text-center pe-1 ps-1">
+       <p>sunday</p>
+   </div>
+<div class="text-center pt-5">
+<i class="next_condition_img fa-solid fa-sun fa-3x p-3"></i>
+<h4 class="next_max_temp">19.2 <sup>o</sup>C </h4>
+<h6 class=" next_min_temp ">10.7 <sup>o</sup>C </h6>
+<p class="next_condition_text statue-air">sunny</p>
+</div>
+</div>
+
+
+
+<div class=" tt3 col-md-4 text-light p-3">
+    <div class="next_day_name fw-bolder text-center pe-1 ps-1">
+       <p>monday</p>
+   </div>
+<div class="text-center pt-5">
+    <i class="next_condition_img fa-solid fa-cloud-sun-rain fa-3x p-3"></i>
+<h4 class="next_max_temp">18.2 <sup>o</sup>C </h4>
+<h6 class="next_min_temp ">10.6 <sup>o</sup>C </h6>
+<p class="next_condition_text statue-air">patch rain nearby</p>
+</div>
+</div>
+
+
+
+
+</div>
+  
+
+
+
+
+
+    <script src="weather.js"></script>
+</body>
+</html>

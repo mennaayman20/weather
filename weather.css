@@ -1,0 +1,31 @@
+body{
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('b07d0a10b14a858d9408c933b2544b22.jpg'); 
+    background-size: cover; 
+
+   
+}
+
+
+
+
+ .search{
+    margin-top: 20px;
+background-color: black;
+border-color:rgb(52, 80, 139);
+ }
+
+.tt1{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.tt2{
+background-color: rgba(54, 26, 26, 0.364);
+}
+.tt3{
+  background-color: rgba(74, 66, 59, 0.597);
+}
+
+.statue-air{
+color: rgb(63, 117, 204);
+}
